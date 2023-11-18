@@ -1,7 +1,7 @@
 import "./categories.styles.scss";
 import "./components/category-item/category-item.component.jsx";
 import CategoryItem from "./components/category-item/category-item.component";
-import CategoryDirectory from "./components/category-directory/category-directory.component.jsx";
+import Directory from "./components/directory/directory.component.jsx";
 
 const App = () => {
   const categories = [
@@ -32,7 +32,7 @@ const App = () => {
     },
   ];
 
-  return <CategoryDirectory categories={categories} />;
+  return <Directory categories={categories} />;
 };
 
 export default App;
